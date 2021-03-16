@@ -16,7 +16,7 @@ export default function Home() {
 
         <p className={styles.description}>
           Coming soon
-          <code className={styles.code}>(hopefully)</code>
+          <code className={styles.code}>(definitely!!!!)</code>
         </p>
       </main>
 
