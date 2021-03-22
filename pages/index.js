@@ -1,23 +1,26 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+// @todo: Favicon.
+
 const Home = () => {
-  const title = 'Personal website of Dan Lennox';
+  const title = 'Hello there!';
   return (
    <div id="page">
       <Head>
-        <title>{title}</title>
+        <title>Dan Lennox</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          {title}
+          <code className={styles.code}>{title}</code>
         </h1>
 
         <p className={styles.description}>
-          Coming soon
-          <code className={styles.code}>(definitely!!!!)</code>
+          Hi, I’m Dan, a software engineer with twelve years experience building for the web. I’m passionate about javascript, rapid prototyping, machine learning and anything to do with gamification.
+          This should read less like a linked in profile. It's a short personal blurb. These days I'm frontend focussed but backend proficient, with experience across modern stack.
+          Jamstack.
         </p>
       </main>
     </div>
